@@ -166,7 +166,7 @@ export default function Journal() {
                       </button>
                     </div>
                   </div>
-                  <p className="font-lora text-sm text-yellow-50/80 leading-relaxed whitespace-pre-wrap">{entry.content}</p>
+                  <p className="font-lora text-base text-white leading-relaxed whitespace-pre-wrap">{entry.content}</p>
                 </GlassCard>
               ))}
             </div>
