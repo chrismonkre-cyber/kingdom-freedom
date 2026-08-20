@@ -128,7 +128,7 @@ function Section({ label, content }) {
       <h3 className="font-cinzel text-sm font-bold text-yellow-400 uppercase tracking-wider mb-2">
         {label}
       </h3>
-      <p className="font-lora text-yellow-50/90 leading-relaxed text-sm md:text-base">
+      <p className="font-lora text-white leading-relaxed text-sm md:text-base">
         {content}
       </p>
     </div>
