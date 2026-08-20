@@ -60,7 +60,7 @@ export default function PageWrapper({ pageKey, children }) {
         style={{ backgroundImage: `url(${imgs.mobile})` }}
       />
       {/* Very soft overlay to help readability without killing the image */}
-      <div className="fixed inset-0 bg-black/20 z-0 pointer-events-none" />
+      <div className="fixed inset-0 bg-black/35 z-0 pointer-events-none" />
 
       {/* Content */}
       <div className="relative z-10 min-h-screen flex flex-col">
