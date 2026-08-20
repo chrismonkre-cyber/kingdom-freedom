@@ -47,7 +47,7 @@ export default function Resources() {
                       <h3 className="font-cinzel text-sm font-bold text-yellow-200 group-hover:text-yellow-100 transition-colors mb-1">
                         {r.name}
                       </h3>
-                      <p className="font-lora text-xs text-yellow-50/70 leading-relaxed">
+                      <p className="font-lora text-xs text-white leading-relaxed">
                         {r.desc}
                       </p>
                     </div>
