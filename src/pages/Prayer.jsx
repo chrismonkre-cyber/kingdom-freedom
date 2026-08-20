@@ -81,7 +81,7 @@ export default function Prayer() {
                     </button>
                     {isOpen && (
                       <div className="relative z-20 px-6 pb-6 border-t border-yellow-600/20 pt-4">
-                        <p className="font-lora text-sm text-yellow-50/90 leading-relaxed italic">
+                        <p className="font-lora text-sm text-white leading-relaxed italic">
                           {p.text}
                         </p>
                       </div>
