@@ -80,7 +80,7 @@ export default function Home() {
               <GlassCard key={f.title} gold className="text-center">
                 <f.icon className="w-10 h-10 text-yellow-400 mx-auto mb-3 drop-shadow-[0_0_8px_rgba(200,160,40,0.5)]" />
                 <h3 className="font-cinzel text-lg font-bold text-yellow-200 mb-2">{f.title}</h3>
-                <p className="font-lora text-sm text-yellow-50/80 leading-relaxed">{f.text}</p>
+                <p className="font-lora text-base text-white leading-relaxed">{f.text}</p>
               </GlassCard>
             ))}
           </div>
