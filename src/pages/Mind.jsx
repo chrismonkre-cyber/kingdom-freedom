@@ -62,7 +62,7 @@ export default function Mind() {
                   </div>
                   <div className="bg-yellow-900/20 border border-yellow-500/30 rounded-lg p-4">
                     <span className="font-cinzel text-xs text-yellow-400 uppercase tracking-wider font-bold">God's Truth</span>
-                    <p className="font-lora text-yellow-50/90 mt-1 italic text-sm">{lt.truth}</p>
+                    <p className="font-lora text-white mt-1 italic text-base">{lt.truth}</p>
                   </div>
                 </div>
               ))}
@@ -76,7 +76,7 @@ export default function Mind() {
             </h2>
             <ul className="space-y-2">
               {IDENTITY.map((item, i) => (
-                <li key={i} className="font-lora text-sm text-white flex items-start gap-2">
+                <li key={i} className="font-lora text-base text-white flex items-start gap-2">
                   <span className="text-yellow-400 mt-0.5">✦</span>
                   {item}
                 </li>
@@ -92,7 +92,7 @@ export default function Mind() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {MEDITATIONS.map((m, i) => (
                 <div key={i} className="bg-yellow-900/15 border border-yellow-600/20 rounded-lg p-4">
-                  <p className="font-lora text-sm text-white italic leading-relaxed">{m}</p>
+                  <p className="font-lora text-base text-white italic leading-relaxed">{m}</p>
                 </div>
               ))}
             </div>
@@ -105,7 +105,7 @@ export default function Mind() {
             </h2>
             <div className="space-y-2">
               {DECLARATIONS.map((d, i) => (
-                <p key={i} className="font-lora text-sm text-white leading-relaxed">
+                <p key={i} className="font-lora text-base text-white leading-relaxed">
                   <span className="text-yellow-400 font-bold mr-2">{i + 1}.</span>
                   {d}
                 </p>
