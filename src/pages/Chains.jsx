@@ -143,7 +143,7 @@ function Detail({ label, text, italic }) {
   return (
     <div>
       <h4 className="font-cinzel text-xs font-bold text-yellow-400 uppercase tracking-wider mb-1">{label}</h4>
-      <p className={`font-lora text-sm text-white leading-relaxed ${italic ? "italic" : ""}`}>{text}</p>
+      <p className={`font-lora text-base text-white leading-relaxed ${italic ? "italic" : ""}`}>{text}</p>
     </div>
   );
 }
