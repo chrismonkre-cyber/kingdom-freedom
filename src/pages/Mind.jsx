@@ -58,7 +58,7 @@ export default function Mind() {
                 <div key={i} className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <div className="bg-red-950/40 border border-red-500/30 rounded-lg p-4">
                     <span className="font-cinzel text-xs text-red-400 uppercase tracking-wider font-bold">The Lie</span>
-                    <p className="font-lora text-yellow-50/90 mt-1 text-sm">{lt.lie}</p>
+                    <p className="font-lora text-white mt-1 text-sm">{lt.lie}</p>
                   </div>
                   <div className="bg-yellow-900/20 border border-yellow-500/30 rounded-lg p-4">
                     <span className="font-cinzel text-xs text-yellow-400 uppercase tracking-wider font-bold">God's Truth</span>
@@ -76,7 +76,7 @@ export default function Mind() {
             </h2>
             <ul className="space-y-2">
               {IDENTITY.map((item, i) => (
-                <li key={i} className="font-lora text-sm text-yellow-50/90 flex items-start gap-2">
+                <li key={i} className="font-lora text-sm text-white flex items-start gap-2">
                   <span className="text-yellow-400 mt-0.5">✦</span>
                   {item}
                 </li>
@@ -92,7 +92,7 @@ export default function Mind() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {MEDITATIONS.map((m, i) => (
                 <div key={i} className="bg-yellow-900/15 border border-yellow-600/20 rounded-lg p-4">
-                  <p className="font-lora text-sm text-yellow-50/90 italic leading-relaxed">{m}</p>
+                  <p className="font-lora text-sm text-white italic leading-relaxed">{m}</p>
                 </div>
               ))}
             </div>
@@ -105,7 +105,7 @@ export default function Mind() {
             </h2>
             <div className="space-y-2">
               {DECLARATIONS.map((d, i) => (
-                <p key={i} className="font-lora text-sm text-yellow-50/90 leading-relaxed">
+                <p key={i} className="font-lora text-sm text-white leading-relaxed">
                   <span className="text-yellow-400 font-bold mr-2">{i + 1}.</span>
                   {d}
                 </p>
@@ -118,7 +118,7 @@ export default function Mind() {
             <h2 className="font-cinzel text-xl md:text-2xl font-bold text-yellow-200 mb-3 text-center">
               Daily Renewal Practice
             </h2>
-            <p className="font-lora text-sm text-yellow-50/90 leading-relaxed text-center max-w-2xl mx-auto">
+            <p className="font-lora text-sm text-white leading-relaxed text-center max-w-2xl mx-auto">
               Each morning, choose one lie you've been believing. Find the Scripture that speaks truth over it. 
               Write it down, speak it aloud, and carry it with you through the day. As you consistently replace 
               lies with truth, your mind is transformed and freedom becomes your daily reality.
