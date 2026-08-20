@@ -90,19 +90,19 @@ export default function Journey() {
                     <div className="px-6 pb-6 space-y-4 border-t border-yellow-600/20 pt-4">
                       <div>
                         <h4 className="font-cinzel text-xs font-bold text-yellow-400 uppercase tracking-wider mb-1">Teaching</h4>
-                        <p className="font-lora text-sm text-white0 leading-relaxed">{step.teaching}</p>
+                        <p className="font-lora text-base text-white0 leading-relaxed">{step.teaching}</p>
                       </div>
                       <div>
                         <h4 className="font-cinzel text-xs font-bold text-yellow-400 uppercase tracking-wider mb-1">Scripture</h4>
-                        <p className="font-lora text-sm text-white italic leading-relaxed">{step.scripture}</p>
+                        <p className="font-lora text-base text-white italic leading-relaxed">{step.scripture}</p>
                       </div>
                       <div>
                         <h4 className="font-cinzel text-xs font-bold text-yellow-400 uppercase tracking-wider mb-1">Prayer</h4>
-                        <p className="font-lora text-sm text-white leading-relaxed">{step.prayer}</p>
+                        <p className="font-lora text-base text-white leading-relaxed">{step.prayer}</p>
                       </div>
                       <div>
                         <h4 className="font-cinzel text-xs font-bold text-yellow-400 uppercase tracking-wider mb-1">Action Step</h4>
-                        <p className="font-lora text-sm text-white leading-relaxed">{step.action}</p>
+                        <p className="font-lora text-base text-white leading-relaxed">{step.action}</p>
                       </div>
                     </div>
                   )}
