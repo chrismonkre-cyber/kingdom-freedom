@@ -12,7 +12,7 @@ export default function PageHeader({ title, subtitle }) {
         {title}
       </h1>
       {subtitle && (
-        <p className="font-lora text-lg md:text-xl text-yellow-100/90 italic max-w-2xl mx-auto">
+        <p className="font-lora text-lg md:text-xl text-white italic max-w-2xl mx-auto">
           {subtitle}
         </p>
       )}
